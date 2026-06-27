@@ -1,0 +1,21 @@
+name: qa_insight_hub
+description: Flutter frontend for QA Insight Hub.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  http: ^1.2.0
+  flutter_bloc: ^8.1.0
+  equatable: ^2.0.0
+  shared_preferences: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/branding/qa_insight_hub_logo.png
